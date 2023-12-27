@@ -1,0 +1,19 @@
+DATABASE C:\Users\Asus\Desktop\Marco_combinv-main\combInv_TEST\combinv\phreeqc_invPra.dat
+SOLUTION 2 Northern Zone CaHCO3 - Water type
+    temp      25
+    pH        6.4635
+    pe        4
+    redox     pe
+    units     mg/l
+    density   1
+    Al        4.419314e-03
+    C(4)      1.085457e+02 as HCO3
+    Na	      1.190286e+01
+    Ca	      2.635481e+01 #charge
+    Cl        8.449450e+00 charge
+    K         7.085174e-01
+    Mg        6.433950e+00
+    S(6)      1.133550e+00 as SO4
+    Si        2.394551e+01 as SiO2
+    Fe	      1.918470e-01
+END

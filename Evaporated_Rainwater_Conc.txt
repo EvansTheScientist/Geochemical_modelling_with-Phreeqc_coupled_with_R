@@ -1,0 +1,12 @@
+The solution composition after evaporating about 90.5 %
+			   Molality
+        C                 1.147e-03 as HCO3
+	Ca                1.504e-03
+	Cl                1.321e-03
+	K                 1.559e-04
+	Mg                1.081e-04
+	Na                1.692e-04
+	S                 1.216e-03 as SO4
+
+       
+

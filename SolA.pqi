@@ -1,0 +1,18 @@
+DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.6.2-15100\database\phreeqc.dat
+SOLUTION 5 Chemical composition of sample A (BH Asiakwa SOS) Northern zone
+	    temp      25
+	    pH        6.136
+	    pe        4
+	    redox     pe
+	    units     mg/l
+	    density   1
+	    C(4)      97.6		as HCO3
+	    Ca        17.96376501
+	    Cl        3.4831 		charge
+	    K         0.541621056
+	    Mg        5.280025944
+	    Na        10.63892087
+	    S(6)      0.5492		as SO4
+	    Si        27.53		as SiO2
+	    water    1 # kg
+	END

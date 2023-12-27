@@ -1,0 +1,19 @@
+DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.6.2-15100\database\phreeqc.dat
+SOLUTION 6 Chemical composition of sample B (Osino Danso BH) Northern zone
+    temp      25
+    pH        6.337
+    pe        4
+    redox     pe
+    units     mg/l
+    density   1
+    C(4)      37.7983		as HCO3
+    Ca        12.64295217
+    Cl        2.3603 		charge
+    K         0.755733002
+    Mg        1.641088072
+    Na        3.149797697
+    S(6)      0.5348		as SO4
+    Si        7.17		as SiO2
+    Fe	  0.019505833
+    -water    1 # kg
+END

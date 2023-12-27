@@ -1,0 +1,85 @@
+DATABASE C:\Users\Asus\Desktop\Marco_combinv-main\combInv_TEST\combinv\phreeqc_invPra.dat
+TITLE Simulation of groundwater chemical evolution along the flow path considering mineral reactions (evaporated rainwater as the initial solution)
+SOLUTION	0  Precipitation from the literature (evaporation untill groundwater Cl concentration is matched)     
+    temp      25
+    pH        3.749
+    pe        4
+    redox     O(0)/O(-2)     
+    redox      pe
+    units     mol/kgw
+    density   1
+    O(0)      0.01     O2(g) -0.7
+    C(4)      1.147e-03 as HCO3
+    Ca        1.504e-03 charge
+    Cl        1.321e-03
+    K         1.559e-04
+    Mg        1.081e-04
+    Na        1.692e-04
+    S(6)      1.216e-03
+EQUILIBRIUM_PHASES 1   ##----------- equlibrated with the potential phases in the unsaturated zone (Saprolite)
+	Kaolinite	0.0
+	Hematite 0.0
+SAVE Solution 1
+END
+
+SELECTED_OUTPUT
+    -file                 organic_matter.dat
+    -reaction             true
+    -totals               C(4) S(6) Fe
+    -molalities           SO4-2  Ca+2 Na+ Cl- Mg+2 K+ 
+
+USE Solution 1
+REACTION 1             ## --------- decomposition of organic matter
+	Organic_matter 1
+	 2.680e-03 moles ##0.004 moles in 100 steps   #2.800e-03 moles (1.56E-05)  ## --------- manual input through try and error
+SAVE Solution 2
+END	
+
+
+## --------- Equilibration with mineral phases identified from the combinatorial inverse model in the Northern Zone.
+EQUILIBRIUM_PHASES 2
+	CO2(g)	-1.7  ## --------  considered for soil zone CO2
+	Albite 0 
+	Fe(OH)3(a) 0 
+      Chalcedony 0
+	pe_Fix -4.9 O2(g) 0.5 ## ---- for redox optimization derived from the combinatorial inverse calculation
+END
+
+USE Solution 2
+USE equilibrium_phases 2
+SAVE Solution 3
+END
+
+
+TITLE Simulatiom of evolution from Northern zone through Central zone --------------------------------------------------------- 
+
+EQUILIBRIUM_PHASES	3  ##  Potential phase assmblages from the Combinatorial inverse claculation in the Central zone
+      CO2(g)	-1.75    ##  considered for soil zone CO2 (estimated)
+	Chalcedony 0 
+	K-mica 0 2.044e-04
+	Goethite	0 0
+	Kaolinite 0 0
+	pe_Fix -1.900623 O2(g) 0.5
+END
+
+USE Solution 3
+USE equilibrium_phases 3
+SAVE Solution 4
+END
+
+TITLE Simulatiom of evolution from Central zone to Southern zone -- here we equilibrate with the aquifer mineralogy -------------------- 
+
+EQUILIBRIUM_PHASES	4  ##----- Mineral assemblages from the combinatorial inverse model in the Southern zone  
+#	CO2(g)	-1.7
+	Calcite 0
+      K-mica 0 
+	Phlogopite 0  10 
+	Chalcedony 0 2.82e6-04
+END
+
+USE Solution 4
+USE equilibrium_phases 4
+SAVE Solution 5
+END
+
+

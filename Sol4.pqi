@@ -1,0 +1,20 @@
+DATABASE C:\Users\Asus\Desktop\Marco_combinv-main\combInv_TEST\combinv\phreeqc_invPra.dat
+SOLUTION 4 Southern Zone NaCl Water Type
+    temp      25
+    pH        6.04000000
+    pe        4
+    redox     pe
+    units     mg/l
+    density   1
+#    Al        0.01316964
+    C(4)      28.00000000  as HCO3
+    Ca        14.84859261  
+    Cl        58.14810000  charge
+    Fe        0.02037970  
+    K         6.05242051 
+    Mg        7.15688012 
+    Na        44.27206080
+    S(6)      8.57000000   as SO4
+    Si        17.52257859  as SiO2
+    -water    1 # kg
+END

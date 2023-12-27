@@ -1,0 +1,19 @@
+DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.6.2-15100\database\phreeqc.dat
+SOLUTION 11 Chemical composition of sample G (Okyinso) Northern zone
+    temp      25
+    pH        6.844
+    pe        4
+    redox     pe
+    units     mg/l
+    density   1
+    C(4)      185			as HCO3
+    Ca        33.81929728
+    Cl        3.24515 		charge
+    K         1.326972588
+    Mg        12.84616278
+    Na        11.93879688
+    S(6)      0.40375		as SO4
+    Si        26.08		as SiO2
+    Fe	  0.76
+    -water    1 # kg
+END

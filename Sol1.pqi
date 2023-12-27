@@ -1,0 +1,25 @@
+SOLUTION 1 Rain_Water Chemistry - here we evaporated the rainater until the Cl concentration of Northern zone is matched.
+    temp      25
+    pH        3.749
+    pe        14.166
+    redox     pe
+    units     mol/kgw
+    density   1
+    C(4)      1.147e-03
+    Ca        1.504e-03 #charge
+    Cl        1.321e-03 charge
+    K         1.559e-04
+    Mg        1.081e-04
+    Na        1.692e-04
+    S(6)      1.216e-03
+######################################  
+PURE 1
+Albite 0 0.1
+Phlogopite 0 0.1
+Pyrite 0 0.1
+K-mica 0 0
+######
+#Fe(OH)3(a) 0 0
+pe_Fix -4.944438 O2(g) 0.5
+END
+

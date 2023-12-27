@@ -1,0 +1,19 @@
+DATABASE C:\Users\Asus\Desktop\Marco_combinv-main\combInv_TEST\combinv\phreeqc_invPra.dat
+SOLUTION 2 Northern Zone CaHCO3 - Water type median conc of all groundwater samples in the northern zone
+    temp      25
+    pH        6.04
+    pe        4
+    redox     pe
+    units     mol/kgw
+    density   1
+#    Al        2.076e-07
+    C(4)      1.082e-03
+    Na	  5.059e-04
+    Ca	  3.197e-04
+    Cl        2.384e-04
+    K         2.123e-05
+    Mg        2.143e-04
+    S(6)      2.270e-05
+    Si        2.750e-04
+    Fe	  1.683e-07
+END

@@ -1,0 +1,19 @@
+DATABASE C:\Users\Asus\Desktop\Marco_combinv-main\combInv_TEST\combinv\phreeqc_invPra.dat
+SOLUTION 2 Central zone median conc of all groundwater samples in the Central zone
+    temp      25
+    pH        6.087 
+    pe        4
+    redox     pe
+    units     mol/kgw
+    density   1
+#    Al                1.038e-07
+    C(4)              6.802e-04
+    Ca                1.822e-04
+    Cl                3.639e-04
+    Fe                3.349e-07
+    K                 8.952e-05
+    Mg                1.234e-04
+    Na                7.743e-04
+    S(6)              2.041e-05
+    Si                4.045e-04
+END

@@ -1,0 +1,19 @@
+DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.6.2-15100\database\phreeqc.dat
+SOLUTION 7 Chemical composition of sample C (Jejeti BH) Northern zone
+    temp      25
+    pH        6.117
+    pe        4
+    redox     pe
+    units     mg/l
+    density   1
+    C(4)      57.3071		as HCO3
+    Ca        12.98982028
+    Cl        8.9766 		charge
+    K         0.661301812
+    Mg        5.776714851
+    Na        11.4023019
+    S(6)      0.406		as SO4
+    Si        16			as SiO2
+    Fe	  0.008361648
+    -water    1 # kg
+END

@@ -1,0 +1,18 @@
+DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.6.2-15100\database\phreeqc.dat
+SOLUTION 8 Chemical composition of sample D (Asuboni BH) Northern zone
+    temp      25
+    pH        7.091
+    pe        4
+    redox     pe
+    units     mg/l
+    density   1
+    C(4)      160			as HCO3
+    Ca        46.65707427
+    Cl        18.67625 		charge
+    K         0.39048366
+    Mg        10.79595127
+    Na        16.91281805
+    S(6)      1.7179		as SO4
+    Si        18.47		as SiO2
+    -water    1 # kg
+END
